@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f8fafc">
+  <meta name="description" content="Privacy Policy for True Glass Widgets, an Android home-screen widget customization app by Bhagwati Studio.">
+  <meta name="robots" content="index, follow">
+  <title>Privacy Policy | True Glass Widgets — Bhagwati Studio</title>
+  <style>
+    :root {
+      --ink: #111c32; --muted: #526079; --subtle: #758198;
+      --blue: #1767df; --purple: #6a46d8; --line: #e5eaf2;
+      --surface: #ffffff; --canvas: #f8fafc; --soft: #f1f5fc;
+      --r: 18px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 28px; }
+    body { margin: 0; color: var(--ink); font: 16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; background: var(--canvas); -webkit-font-smoothing: antialiased; }
+    a { color: var(--blue); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: #0e46a0; }
+    a:focus-visible, summary:focus-visible { outline: 3px solid #619afa; outline-offset: 4px; border-radius: 4px; }
+    .skip { position: absolute; left: 14px; top: -90px; z-index: 10; padding: 10px 14px; background: #fff; border: 2px solid var(--blue); }
+    .skip:focus { top: 10px; }
+    .top { background: #fff; border-bottom: 1px solid var(--line); }
+    .top-inner { max-width: 1180px; margin: 0 auto; padding: 22px 24px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .brand { display: flex; align-items: center; gap: 13px; text-decoration: none; color: var(--ink); }
+    .mark { position: relative; display: block; width: 46px; height: 46px; flex: 0 0 46px; border-radius: 13px; background: linear-gradient(135deg,#0343be 0%,#04b8f3 52%,#6d38df 100%); box-shadow: inset 0 1px 2px #fff9,0 5px 18px #245cdc20; border: 1px solid #e9f4ff8a; }
+    .mark i { position: absolute; display: block; border-radius: 5px; box-shadow: inset 0 1px 2px #ffffffb9; border: 1px solid #ffffff99; }
+    .mark i:first-child { left: 9px; top: 9px; width: 20px; height: 28px; background: linear-gradient(135deg,#d9f6ff,#65bfff); }
+    .mark i:nth-child(2) { right: 7px; top: 9px; width: 12px; height: 13px; background: linear-gradient(135deg,#e4d9ff,#9775f7); }
+    .mark i:nth-child(3) { right: 7px; bottom: 9px; width: 12px; height: 13px; background: linear-gradient(135deg,#8df1ff,#03c8ff); }
+    .brand-name { display: block; font-size: 17px; font-weight: 750; line-height: 1.2; letter-spacing: -.35px; }
+    .brand-sub { display: block; font-size: 12px; color: var(--subtle); font-weight: 500; margin-top: 2px; }
+    .top-tag { font-size: 13px; color: var(--muted); white-space: nowrap; }
+    .hero { padding: 65px 24px 48px; background: radial-gradient(ellipse 530px 250px at 92% -4%,#e9e9ff 0%,transparent 88%),radial-gradient(ellipse 540px 270px at 0% 100%,#e9f4ff 0%,transparent 86%),#fff; border-bottom: 1px solid var(--line); }
+    .hero-inner { max-width: 1120px; margin: auto; }
+    .eyebrow { font-size: 12px; text-transform: uppercase; font-weight: 800; letter-spacing: 1.7px; color: var(--blue); }
+    h1 { font-size: clamp(36px,5.2vw,58px); letter-spacing: -2px; line-height: 1.15; margin: 12px 0 16px; font-weight: 800; }
+    .hero-lead { max-width: 690px; color: var(--muted); font-size: 18px; line-height: 1.7; margin: 0 0 23px; }
+    .meta { display: flex; gap: 9px; flex-wrap: wrap; }
+    .chip { display: inline-flex; align-items: center; padding: 6px 12px; color: #344766; background: #f1f6fe; border: 1px solid #e3ecfa; border-radius: 999px; font-size: 13px; font-weight: 600; }
+    .layout { display: grid; max-width: 1180px; margin: 0 auto; padding: 42px 24px 100px; grid-template-columns: 232px minmax(0,1fr); gap: 36px; align-items: start; }
+    .toc { background: white; border: 1px solid var(--line); border-radius: var(--r); padding: 19px 16px; position: sticky; top: 22px; }
+    .toc strong { font-size: 12px; text-transform: uppercase; letter-spacing: 1.1px; color: var(--subtle); display: block; margin: 0 0 9px 11px; }
+    .toc a { display: block; font-size: 13px; line-height: 1.45; padding: 9px 11px; border-radius: 9px; text-decoration: none; color: #4c5a73; }
+    .toc a:hover { color: #124eae; background: #f1f6ff; }
+    .policy { background: #fff; padding: 46px 52px; border: 1px solid var(--line); border-radius: 22px; box-shadow: 0 10px 28px #1d375709; min-width: 0; }
+    .notice { display: flex; gap: 13px; padding: 18px 20px; border-radius: 13px; background: #eff5ff; border: 1px solid #dbe8fd; margin: 0 0 30px; }
+    .notice-icon { font-size: 20px; line-height: 1.2; color: var(--blue); font-weight: bold; }
+    .notice p { margin: 0; color: #344d78; font-size: 14px; }
+    section { scroll-margin-top: 22px; padding-top: 27px; margin-top: 27px; border-top: 1px solid var(--line); }
+    section:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+    h2 { font-size: 23px; line-height: 1.3; letter-spacing: -.55px; margin: 0 0 13px; }
+    h3 { font-size: 16px; line-height: 1.5; margin: 22px 0 6px; }
+    p { margin: 0 0 13px; }
+    ul { margin: 10px 0 15px; padding-left: 22px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 700; }
+    table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 20px 0; }
+    th,td { text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); padding: 12px; }
+    th { color: #2c3b56; background: #f5f8fd; font-size: 13px; }
+    .table-wrap { overflow-x: auto; }
+    .link-block { overflow-wrap: anywhere; }
+    .contact { margin-top: 15px; padding: 23px; background: #f7f9ff; border: 1px solid #e6ecfc; border-radius: 14px; }
+    .contact p:last-child { margin-bottom: 0; }
+    .footer { border-top: 1px solid var(--line); background: white; }
+    .footer-inner { max-width: 1180px; padding: 27px 24px; margin: auto; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 820px) { .layout { display: block; padding: 24px 16px 60px; } .toc { position: static; margin-bottom: 20px; } .toc nav { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); } .policy { padding: 28px 24px; } .hero { padding: 47px 20px 37px; } }
+    @media (max-width: 480px) { .top-inner { padding: 15px 16px; } .top-tag { display: none; } .toc nav { grid-template-columns: 1fr 1fr; } .policy { padding: 26px 19px; border-radius: 16px; } table { font-size: 13px; } th,td { padding: 9px; } .hero-lead { font-size: 16px; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main-content">Skip to privacy policy</a>
+  <header class="top">
+    <div class="top-inner">
+      <div class="brand" aria-label="True Glass Widgets by Bhagwati Studio">
+        <span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span><span class="brand-name">True Glass Widgets</span><span class="brand-sub">by Bhagwati Studio</span></span>
+      </div>
+      <span class="top-tag">Privacy &amp; transparency</span>
+    </div>
+  </header>
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Your data, your choices</div>
+      <h1>Privacy Policy</h1>
+      <p class="hero-lead">Learn how True Glass Widgets handles your widget preferences, optional device access, online information, and advertising data.</p>
+      <div class="meta">
+        <span class="chip">Effective: 27 October 2026</span>
+        <span class="chip">Developer: Bhagwati Studio</span>
+        <span class="chip">Android app</span>
+      </div>
+    </div>
+  </div>
+  <main id="main-content" class="layout">
+    <aside class="toc" aria-label="Page navigation">
+      <strong>On this page</strong>
+      <nav>
+        <a href="#overview">1. Overview</a>
+        <a href="#information">2. Information processed</a>
+        <a href="#permissions">3. Permissions</a>
+        <a href="#advertising">4. Ads and AdMob</a>
+        <a href="#online">5. Online services</a>
+        <a href="#sharing">6. Sharing</a>
+        <a href="#retention">7. Retention and deletion</a>
+        <a href="#choices">8. Your choices</a>
+        <a href="#security">9. Security</a>
+        <a href="#children">10. Children's privacy</a>
+        <a href="#international">11. International processing</a>
+        <a href="#updates">12. Changes</a>
+        <a href="#contact">13. Contact</a>
+      </nav>
+    </aside>
+    <article class="policy" aria-label="Privacy policy content">
+      <div class="notice"><span class="notice-icon" aria-hidden="true">ⓘ</span><p><strong>In short:</strong> The app lets you personalize Android home-screen widgets. Some functions use information you choose to provide or grant access to. Advertising services may process device and usage data independently of your personal widget content.</p></div>
+
+      <section id="overview">
+        <h2>1. Overview</h2>
+        <p>This Privacy Policy explains how <strong>Bhagwati Studio</strong> ("we", "us", or "our") handles information in connection with the <strong>True Glass Widgets</strong> Android application (the "App") and this privacy policy page.</p>
+        <p>The App provides home-screen widgets including clocks, calendars, launchers, notes, utility controls, device information, personalization, and optional internet-based content. Some features are only available on supported devices or after you grant the relevant permissions.</p>
+        <p>The information accessed depends on the features you choose to use, your Android version, and the permissions you grant. A reference to an optional capability below does not mean that every version of the App requests it.</p>
+      </section>
+
+      <section id="information">
+        <h2>2. Information the App may process</h2>
+        <h3>Widget settings and content</h3>
+        <p>When you create or customize widgets, the App may process preferences such as selected widget designs, sizes, colors, app shortcuts, widget positions, saved notes, checklists, habits, reminders, QR-code content, and similar information you enter. This data is used to display and operate your selected widgets.</p>
+        <h3>Photos, wallpapers, and selected files</h3>
+        <p>If you use photo widgets, photo frames, wallpaper matching, glass alignment, or document shortcuts, the App may access images or files you select. Selected content is used to create a preview, display a widget, align wallpaper-based effects, or open a chosen item. Files you share or select may also be processed by the Android system or apps you choose to open them with.</p>
+        <h3>Device and system information</h3>
+        <p>Device-monitoring or quick-control widgets may read information available through Android APIs, such as battery status, storage availability, memory estimates, device model, Android version, connectivity status, sensor readings, and supported audio or display settings.</p>
+        <h3>Personal information you choose to use</h3>
+        <p>Optional features may access selected contacts, calendar entries, activity or step data, app usage statistics, and location information to provide the corresponding widgets. For example, a weather widget may need an approximate or precise location, while a contact shortcut may need a selected contact. These features require the relevant Android access or another explicit selection where applicable.</p>
+        <h3>Internet requests</h3>
+        <p>Online features—such as weather, finance, currency exchange, news, sports, or other live-information widgets—may send requests to external data providers. Depending on the provider and feature, those requests may include a location or city, a selected ticker or currency pair, a search term, technical network information, or other details needed to deliver the requested content.</p>
+        <h3>Advertising and technical information</h3>
+        <p>If the App displays advertisements, the advertising SDK may collect or receive technical data such as IP address, device or advertising identifiers, app interactions, ad views, and diagnostic information. See <a href="#advertising">Section 4</a> for details.</p>
+        <h3>Optional account, purchases, and synchronization features</h3>
+        <p>If an installed version of the App offers account sign-in, online backup, premium purchases, or subscription services, the data necessary for the feature may be handled by the relevant account, billing, or synchronization provider. Payment processing through Google Play is subject to Google's terms and privacy practices. We do not need your complete payment card information to activate a purchase made through Google Play.</p>
+      </section>
+
+      <section id="permissions">
+        <h2>3. Permissions and special device access</h2>
+        <p>The App requests access only when a feature requires it or when Android requires a permission or settings-level grant. Denying an optional permission may prevent the related widget from working, while unrelated widgets can generally still be used.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th scope="col">Permission or access</th><th scope="col">Why it may be needed</th></tr></thead>
+            <tbody>
+              <tr><td>Photos, media, and selected documents</td><td>Photo widgets, wallpaper selection, frames, saved image content, and file shortcuts.</td></tr>
+              <tr><td>Location</td><td>Local weather, air quality, nearby places, commute, or location-based information if these features are enabled.</td></tr>
+              <tr><td>Contacts and calendar</td><td>User-selected contact shortcuts, favorites, schedules, meetings, and event widgets.</td></tr>
+              <tr><td>Physical activity / health data</td><td>Optional steps, fitness, and health-tracking widgets where supported and authorized.</td></tr>
+              <tr><td>Usage access / app visibility</td><td>Optional digital-wellbeing summaries and shortcuts to installed apps; access depends on Android's rules.</td></tr>
+              <tr><td>Nearby devices / Bluetooth / network state</td><td>Bluetooth accessory status and connectivity-related widgets where the device allows it.</td></tr>
+              <tr><td>Camera</td><td>Opening camera functions or scanning codes if supported by a feature.</td></tr>
+              <tr><td>Notifications / alarms</td><td>Optional reminders, countdown alerts, and time-sensitive widget notifications.</td></tr>
+              <tr><td>Wallpaper or home-screen integration</td><td>Applying selected wallpaper, placing widgets, and optionally aligning wallpaper-matched glass effects.</td></tr>
+              <tr><td>Accessibility service (only if offered and enabled)</td><td>Optional automatic glass-alignment functionality on supported Android devices. The App must explain the specific access and obtain consent separately before activation.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p><strong>True Glass and wallpaper matching:</strong> Standard widget appearances do not require advanced alignment access. Wallpaper-matched effects may require you to select a wallpaper and align the widget manually. Any optional automatic mode requiring an Accessibility service must be enabled deliberately through Android settings and accompanied by a separate in-app explanation of what the service observes or does. You may disable granted special access in Android settings.</p>
+        <p>Android permission screens and system settings control access. The specific list of permissions available to you varies by device and App version.</p>
+      </section>
+
+      <section id="advertising">
+        <h2>4. Advertising and Google AdMob</h2>
+        <p>The App may display advertising provided by <strong>Google AdMob (Google LLC)</strong>. The Google Mobile Ads SDK may automatically collect and share the following categories of information to provide ads, measure their performance, and prevent fraud:</p>
+        <ul>
+          <li><strong>IP address</strong>, which may be used to estimate general location;</li>
+          <li><strong>App interactions</strong>, including ad views, taps, and app usage events;</li>
+          <li><strong>Diagnostic information</strong> about performance and technical problems; and</li>
+          <li><strong>Device or account identifiers</strong>, such as the Android advertising ID or app set ID, when available and permitted.</li>
+        </ul>
+        <p>Depending on your region, consent choices, settings, and applicable law, ads may be personalized or non-personalized. Google's advertising services may use cookies and similar technologies in relevant web or ad contexts and may process device identifiers, IP addresses, and other technical information.</p>
+        <p>Where required, we will request advertising consent through the App's consent interface. You can also review advertising-related controls in Android settings. Resetting or deleting an advertising identifier may affect ad personalization but does not necessarily prevent all advertising or technical processing.</p>
+        <p>For more information, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>, <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from apps and sites using its services</a>, and <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Advertising Privacy</a>.</p>
+      </section>
+
+      <section id="online">
+        <h2>5. Internet services and external links</h2>
+        <p>Some widgets show online information supplied by third parties. The App may communicate with the providers needed to retrieve requested data. Those providers may receive technical request information, including IP address, and any feature-specific information needed to provide a response.</p>
+        <p>When you tap a shortcut to a website, social platform, streaming service, map application, or another app, that service operates under its own privacy policy. We do not control the privacy practices of independent third-party apps or websites.</p>
+        <p>If external providers, cloud synchronization, analytics services, or additional advertising services are added or changed, this policy should be updated to identify material new data uses or sharing.</p>
+      </section>
+
+      <section id="sharing">
+        <h2>6. How information may be shared</h2>
+        <p>Information may be processed by or disclosed to the following categories of recipients when needed:</p>
+        <ul>
+          <li><strong>Advertising providers:</strong> Google AdMob and its authorized advertising technology partners for ad serving, measurement, and fraud prevention.</li>
+          <li><strong>Requested content providers:</strong> External services supplying weather, market prices, news, transport, or other online widget information.</li>
+          <li><strong>Platforms and apps you choose:</strong> Android, Google Play, file providers, browsers, and applications you open or link through a widget.</li>
+          <li><strong>Legal and safety recipients:</strong> Where disclosure is required by applicable law or is necessary to protect users, rights, and service security.</li>
+        </ul>
+        <p>Information that you intentionally share—such as a QR code containing contact details, Wi-Fi credentials, or a payment link—can be read by people or applications with whom you choose to share it. Review QR-code contents before sharing.</p>
+      </section>
+
+      <section id="retention">
+        <h2>7. Data storage, retention, and deletion</h2>
+        <p>Widget configurations and user-created content may be stored in the App's local data storage so widgets continue working between sessions. Information remains for as long as it is needed for the corresponding feature, until you delete it through an available in-app control, clear the App's storage, or uninstall the App, subject to Android backup and restore behavior.</p>
+        <p>If you enable a separately offered cloud synchronization or backup feature, copies may remain with its provider until deleted under that feature's controls and applicable retention policies. We will describe any such storage and deletion procedure in the App if the feature is offered.</p>
+        <p>Information processed by Google, external content providers, or other independent services is subject to their own retention policies. Removing the App does not automatically erase records independently retained by those providers.</p>
+        <p>To request assistance regarding personal information controlled by Bhagwati Studio, contact us using the details below. We will review requests and respond as required by applicable law.</p>
+      </section>
+
+      <section id="choices">
+        <h2>8. Your choices and rights</h2>
+        <ul>
+          <li><strong>Optional permissions:</strong> Allow or revoke permissions and special access in Android settings.</li>
+          <li><strong>Widget content:</strong> Change or delete notes, shortcuts, and preferences using controls available in the App.</li>
+          <li><strong>Advertising preferences:</strong> Use the consent choices offered in the App where applicable and controls available from Android and Google.</li>
+          <li><strong>Location-based widgets:</strong> Disable location access or stop using widgets requiring it.</li>
+          <li><strong>Data removal:</strong> Remove saved content, clear the App's storage, uninstall the App, or contact us for requests concerning data we control.</li>
+        </ul>
+        <p>Depending on where you live, you may have legal rights to request access to, correction of, deletion of, or restrictions on the processing of personal information. Contact us to exercise rights that apply to your circumstances.</p>
+      </section>
+
+      <section id="security">
+        <h2>9. Security</h2>
+        <p>We aim to limit data access to what is needed for a feature and to use the protection mechanisms made available by Android and relevant service providers. Network communications with services that support HTTPS should use encrypted transport. No method of storage or internet communication can be guaranteed completely secure.</p>
+        <p>Take care when saving sensitive information in home-screen widgets, which may be visible to anyone who can see your unlocked device. Avoid placing passwords, OTPs, or other secret information in widgets or sharable QR codes.</p>
+      </section>
+
+      <section id="children">
+        <h2>10. Children's privacy</h2>
+        <p>The App is a general-purpose customization and utility application and is not designed specifically for children. Any advertising served to users must follow applicable age-related laws and Google Play requirements. If you believe a child has provided personal information to us without appropriate authorization, please contact us.</p>
+      </section>
+
+      <section id="international">
+        <h2>11. International data processing</h2>
+        <p>Third-party services used by the App, including Google advertising products and online data providers, may process information in countries other than your country of residence. Applicable privacy and data protection rules may vary by location. Those providers describe their safeguards in their own privacy documentation.</p>
+      </section>
+
+      <section id="updates">
+        <h2>12. Changes to this Privacy Policy</h2>
+        <p>We may revise this policy when the App's features, data practices, providers, or legal requirements change. The updated effective date will appear near the top of this page. For material changes, we will provide additional notice in the App when required.</p>
+      </section>
+
+      <section id="contact">
+        <h2>13. Contact us</h2>
+        <p>For questions about this policy or to make a privacy request, please contact the developer:</p>
+        <div class="contact">
+          <p><strong>Developer:</strong> Bhagwati Studio<br><strong>Application:</strong> True Glass Widgets</p>
+          <!-- REQUIRED BEFORE PUBLISHING: Replace the example address below with your monitored privacy contact email. -->
+          <p class="link-block"><strong>Privacy contact:</strong> <a href="mailto:bhagwati.01.studio@gmail.com">bhagwati.01.studio@gmail.com</a></p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="footer"><div class="footer-inner"><span>© 2026 Bhagwati Studio · True Glass Widgets</span><span>Privacy Policy · Updated 27 October 2026</span></div></footer>
+</body>
+</html>
